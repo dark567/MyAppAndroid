@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/name_contr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите название объекта"/>
+    <EditText
+        android:id="@+id/PERSON_NAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите ФИО охраника"/>
+    <EditText
+        android:id="@+id/REZULT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите результат"/>
+    <EditText
+        android:id="@+id/DATA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите дату"/>
+    <EditText
+        android:id="@+id/DESCRIPTION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Сохранить" />
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Удалить" />
+
+    </LinearLayout>
+
+</LinearLayout>

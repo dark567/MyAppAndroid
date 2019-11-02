@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_small">
+    <item
+        android:id="@+id/action_cat1"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/action_cat_male" />
+    <item
+        android:id="@+id/action_cat2"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/action_cat_female" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/SyncSettings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cat3"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/action_cat_update" />
+    <item
+        android:id="@+id/action_cat_attention"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/attention" />
+    <item
+        android:id="@+id/action_cat4"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/action_kitten" />
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/about" />
+</menu>

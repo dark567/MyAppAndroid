@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <TextView
+        android:id="@+id/COLUMN_CONTR_NAME"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="COLUMN_CONTR_NAME" />
+
+    <TextView
+        android:id="@+id/COLUMN_PERSON_NAME"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.31"
+        android:text="COLUMN_PERSON_NAME" />
+
+    <TextView
+        android:id="@+id/COLUMN_CONTR_NAME_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.39"
+        android:text="COLUMN_CONTR_NAME" />
+
+    <TextView
+        android:id="@+id/COLUMN_PERSON_NAME_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.39"
+        android:text="COLUMN_REZULT" />
+
+    <TextView
+        android:id="@+id/URL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.84"
+        android:text="COLUMN_DATA" />
+
+    <TextView
+        android:id="@+id/TIMEOUT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.74"
+        android:text="COLUMN_TIMEOUT" />
+    <TextView
+        android:id="@+id/SH"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Широта" />
+    <TextView
+        android:id="@+id/D"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Долгота" />
+    <TextView
+        android:id="@+id/RADIUS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="Радиус" />
+
+
+</LinearLayout>

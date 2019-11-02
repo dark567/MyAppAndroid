@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="1200" android:drawable="@drawable/bunny_00000" />
+    <item android:duration="100" android:drawable="@drawable/bunny_00006" />
+    <item android:duration="100" android:drawable="@drawable/bunny_00007" />
+    <item android:duration="400" android:drawable="@drawable/bunny_00008" />
+    <item android:duration="100" android:drawable="@drawable/bunny_00007" />
+    <item android:duration="100" android:drawable="@drawable/bunny_00006" />
+</animation-list>

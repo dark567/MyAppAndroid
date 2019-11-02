@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/ColCOLUMN_CONTR_NAME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="COLUMN_CONTR_NAME" />
+
+        <TextView
+            android:id="@+id/ColCOLUMN_PERSON_NAME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.19"
+            android:text="COLUMN_PERSON_NAME" />
+
+        <TextView
+            android:id="@+id/ColCOLUMN_REZULT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.31"
+            android:text="COLUMN_REZULT" />
+
+        <TextView
+            android:id="@+id/ColCOLUMN_DATA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.75"
+            android:text="COLUMN_DATA" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@id/selected" android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/indeterminate_progress_inverse_frame_duration" android:drawable="@drawable/progress_indicator_inverse_1" android:pivotX="50.0%" android:pivotY="50.0%" />
+    <item android:duration="@integer/indeterminate_progress_inverse_frame_duration" android:drawable="@drawable/progress_indicator_inverse_2" android:pivotX="50.0%" android:pivotY="50.0%" />
+    <item android:duration="@integer/indeterminate_progress_inverse_frame_duration" android:drawable="@drawable/progress_indicator_inverse_3" android:pivotX="50.0%" android:pivotY="50.0%" />
+    <item android:duration="@integer/indeterminate_progress_inverse_frame_duration" android:drawable="@drawable/progress_indicator_inverse_4" android:pivotX="50.0%" android:pivotY="50.0%" />
+    <item android:duration="@integer/indeterminate_progress_inverse_frame_duration" android:drawable="@drawable/progress_indicator_inverse_5" android:pivotX="50.0%" android:pivotY="50.0%" />
+    <item android:duration="@integer/indeterminate_progress_inverse_frame_duration" android:drawable="@drawable/progress_indicator_inverse_6" android:pivotX="50.0%" android:pivotY="50.0%" />
+    <item android:duration="@integer/indeterminate_progress_inverse_frame_duration" android:drawable="@drawable/progress_indicator_inverse_7" android:pivotX="50.0%" android:pivotY="50.0%" />
+    <item android:duration="@integer/indeterminate_progress_inverse_frame_duration" android:drawable="@drawable/progress_indicator_inverse_8" android:pivotX="50.0%" android:pivotY="50.0%" />
+</animation-list>

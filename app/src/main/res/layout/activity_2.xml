@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+
+    android:gravity="center_vertical|center_horizontal">
+
+    <TextView
+        android:id="@+id/LocationGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="---"
+        android:layout_column="1"
+        android:layout_gravity="top|center_horizontal"
+        android:textColor="#7d7a7a">
+    </TextView>
+
+    <TextView
+        android:id="@+id/LocationNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="---"
+        android:layout_column="88"
+        android:layout_gravity="top|center_horizontal"
+        android:textColor="#7d7a7a" />
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:layout_gravity="center"
+        android:textSize="13pt"
+        android:width="1dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="544dp"
+        android:weightSum="5"
+        android:layout_gravity="center_horizontal"
+        android:gravity="start|end">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="S O S"
+            android:id="@+id/button"
+
+            android:layout_alignEnd="@+id/imageButton"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:onClick="onClick_sos"
+            android:width="2dp" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="261dp"
+            android:id="@+id/ImageButton"
+            android:src="@drawable/index"
+            android:onClick="onClick"
+            android:layout_weight="3.97" />
+    </LinearLayout>
+
+</LinearLayout>

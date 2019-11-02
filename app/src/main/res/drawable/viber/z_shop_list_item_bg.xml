@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/shop_list_item_border_zoobe" android:color="@color/zoobe_shop_item_border_pressed_color" />
+            <solid android:color="@color/zoobe_shop_item_bg_pressed_color" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/shop_list_item_border_zoobe" android:color="@color/zoobe_shop_item_border_color" />
+            <solid android:color="@color/zoobe_shop_item_bg_color" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dark.new_test_job.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:gravity="center_vertical"
+    android:background="@drawable/background_small"
+    android:onClick="onClick_my">
+
+
+
+
+    <!--<ListView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/my_list" />-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/progressBar">
+        <TextView
+
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="---"
+            android:textSize="20dp"/>
+
+        <TextView
+
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="---"
+            android:textSize="20dp"
+            android:visibility="invisible" />
+
+
+
+
+    </LinearLayout>
+
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/allarmButton"
+
+        android:src="@drawable/alarm"
+        android:onClick="onClick_alarm"
+        android:clickable="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/alarm_progress"
+        android:visibility="invisible" />
+
+
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/imageButton"-->
+
+        <!--android:src="@drawable/alarm"-->
+
+    <!--android:onClick="onClick_alarm"-->
+
+        <!--android:clickable="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:visibility="visible" />-->
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="1"-->
+        <!--android:id="@+id/button"-->
+        <!--android:onClick="onClick_1"-->
+        <!--android:height="80dp"-->
+        <!--android:hint="100"-->
+        <!--android:layout_below="@+id/textView2"-->
+        <!--android:layout_toStartOf="@+id/button2"-->
+        <!--android:background="@drawable/roundrect"-->
+        <!--android:enabled="false"-->
+        <!--android:visibility="invisible" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="2"-->
+        <!--android:id="@+id/button2"-->
+        <!--android:onClick="onClick_2"-->
+        <!--android:height="80dp"-->
+        <!--android:layout_alignTop="@+id/button"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:background="@drawable/roundrect"-->
+        <!--android:visibility="invisible" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="3"-->
+        <!--android:id="@+id/button3"-->
+        <!--android:onClick="onClick_3"-->
+        <!--android:height="75dp"-->
+        <!--android:layout_alignBottom="@+id/button2"-->
+        <!--android:layout_toEndOf="@+id/button2"-->
+        <!--android:layout_alignTop="@+id/button2"-->
+        <!--android:background="@drawable/roundrect"-->
+        <!--android:visibility="invisible" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="4"-->
+        <!--android:id="@+id/button4"-->
+        <!--android:height="75dp"-->
+        <!--android:onClick="onClick_4"-->
+        <!--android:layout_below="@+id/button"-->
+        <!--android:layout_alignStart="@+id/button"-->
+        <!--android:background="@drawable/roundrect"-->
+        <!--android:visibility="invisible" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="5"-->
+        <!--android:id="@+id/button7"-->
+        <!--android:layout_below="@+id/button"-->
+        <!--android:layout_alignBottom="@+id/button4"-->
+        <!--android:layout_alignEnd="@+id/button2"-->
+        <!--android:layout_toEndOf="@+id/button"-->
+        <!--android:background="@drawable/roundrect"-->
+        <!--android:visibility="invisible" />-->
+
+    <!--<View-->
+        <!--android:layout_width="1dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@android:color/darker_gray" />-->
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/sample_content_fragment"-->
+        <!--android:layout_weight="2"-->
+        <!--android:layout_width="0px"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/onPutSettings"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="1"-->
+        <!--android:textSize="12dp"-->
+        <!--android:onClick="onPutSettings"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/onShowSettings"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="2"-->
+        <!--android:textSize="12dp"-->
+        <!--android:onClick="onShowSettings"/>-->
+    <!--</LinearLayout>-->
+
+
+</RelativeLayout>

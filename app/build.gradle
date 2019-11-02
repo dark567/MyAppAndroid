@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.dark.new_test_job"
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    useLibrary 'org.apache.http.legacy'
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] }}
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'https://github.com/yandexmobile/yandexmapkit-android/raw/maven/' }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/zbar.jar')
+    compile files('libs/zxing_core.jar')
+    compile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'ru.yandex:yandexmapkit:2.4.2@aar'
+    compile 'com.sothree.slidinguppanel:library:2.0.4'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+}
+
+
+
+

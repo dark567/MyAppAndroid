@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@id/btn_sticker_animation" android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="600" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040001" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040002" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040003" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040004" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040005" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040006" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040007" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040008" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040009" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040010" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040011" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040012" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040013" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040014" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040015" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040016" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040017" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040018" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040019" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040020" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040021" />
+    <item android:duration="60" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040022" />
+    <item android:duration="60" android:drawable="@drawable/btn_stickers_icon" />
+</animation-list>

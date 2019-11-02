@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/FACILITY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите название объекта"
+        android:textSize="12dp" />
+    <EditText
+        android:id="@+id/GUARD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите ФИО охраника"
+        android:textSize="12dp" />
+    <EditText
+        android:id="@+id/ID_FACILITY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите id объекта"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/ID_GUARD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите id охранника"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/URL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите URL сервера"
+        android:textSize="12dp" />
+    <EditText
+        android:id="@+id/TIMEOUT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите TIMEOUT"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ID_sh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите Широту"
+            android:layout_weight="0.85"
+            android:textSize="12dp"/>
+        <EditText
+            android:id="@+id/ID_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите Долготу"
+            android:layout_weight="0.85"
+            android:textSize="12dp"/>
+        <EditText
+            android:id="@+id/ID_r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Радиус (метры):"
+            android:layout_weight="1"
+            android:textSize="12dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Сохранить"
+            android:textSize="12dp"/>
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Удалить"
+            android:textSize="12dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/settings_gps"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="onClickLocationSettings"
+            android:text="Настройки GPS"
+            android:textSize="12dp"/>
+
+        <Button
+            android:id="@+id/ShowGPS"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="ShowGPS"
+            android:text="Показать Real Широту/Долготу"
+            android:textSize="12dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/GPS_SH"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:text=""
+            android:textSize="12dp"/>
+        <EditText
+            android:id="@+id/GPS_D"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:text=""
+            android:textSize="12dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

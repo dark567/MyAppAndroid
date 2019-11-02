@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="сканирование QR кода"/>
+            <!--android:onClick="click1" -->
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="История" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_location_on_24dp"
+            android:title="Местоположение" />
+        <item
+            android:id="@+id/alarm"
+            android:icon="@drawable/ic_alarm_24dp"
+            android:title="График обходов" />
+
+        <item
+            android:id="@+id/list_number"
+            android:icon="@drawable/ic_perm_device_info_24dp"
+            android:title="@string/l_number" />
+
+        <item
+            android:id="@+id/dic_qr"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="@string/dic_qr" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/sys" />
+
+    </group>
+
+    <item android:title="Служебные">
+        <menu>
+            <item
+                android:id="@+id/phone_info"
+                android:icon="@drawable/ic_perm_device_info_24dp"
+                android:title="Информация о телефоне" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_picture_in_picture_24dp"
+                android:title="Отправить данные" />
+            <item
+                android:id="@+id/nav_pass"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/sys" />
+
+        </menu>
+    </item>
+
+</menu>

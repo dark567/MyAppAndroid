@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+    <ListView
+        android:id="@+id/list_a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/reddivider"
+        android:dividerHeight="@dimen/twodp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"/>
+    <!--<EditText android:id="@+id/message_a"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:cursorVisible="true"-->
+        <!--android:hint="Введите сообщение"-->
+
+        <!--android:singleLine="false"-->
+        <!--android:layout_weight="0.71"-->
+        <!--android:gravity="top|left" />-->
+    <!--<Button android:id="@+id/sms_a"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Отправить всем кто есть в базе"-->
+        <!--android:onClick="smsSend_multi" />-->
+</LinearLayout>

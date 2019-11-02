@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:appcompat="http://schemas.android.com/tools">
+
+    <!--<item android:id="@+id/home"-->
+        <!--android:title="@string/home"-->
+        <!--android:icon="@drawable/ic_keyboard_backspace_black_24dp"-->
+        <!--android:showAsAction="ifRoom"/>-->
+
+    <item android:id="@+id/clear"
+        android:title="@string/clear"
+        android:icon="@drawable/glyphicons_016_bin"
+        android:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/replication_db"
+        android:title="@string/replication"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/glyphicons_340_globe"/>
+
+
+    <item
+        android:id="@+id/menu_item_new"
+        android:title="@string/menu_item_new"
+        android:icon="@drawable/glyphicons_432_plus"
+        android:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/action_prefs"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="ifRoom"
+        android:title="@string/settings" />
+
+</menu>

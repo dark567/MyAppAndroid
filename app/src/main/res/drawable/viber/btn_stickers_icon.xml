@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040001" />
+    <item android:state_checked="true" android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040004" />
+    <item android:drawable="@drawable/_ics_ic_sticker_menu_anim_turn040001" />
+</selector>

@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Инэкс</string>
+    <string name="app_QR">QR сканер</string>
+    <string name="add">Добавить</string>
+    <string name="add_feed">Добавить ленту</string>
+    <string name="feed_link">Адрес</string>
+    <string name="feed_icon">Иконка ленты</string>
+    <string name="feed_p">Лента #%1$d</string>
+    <string name="sync">Синхронизация</string>
+    <string name="settings">Настройки</string>
+    <string name="general_settings">Основные настройки</string>
+    <string name="sync_settings_summary">Автоматическая синхронизация и т.д.</string>
+    <string name="auto_sync">Автоматическая синхронизация</string>
+    <string name="auto_sync_summary">Синхронизация через определенные интервалы времени</string>
+    <string name="auto_sync_interval">Интервал синхронизации</string>
+    <string name="auto_sync_interval_summary">Промежуток времени выполнения синхронизации</string>
+    <string name="news">Новости</string>
+    <string name="about">О программе.</string>
+    <string name="about_text">
+        \n Версия 1.1
+        \n
+        \n <b>Добавлено:</b>
+        \n 1. Добавлено описание "О программе."
+        \n 2. Добавлена настройка "Настройка сихронизации."
+        \n
+        \n Изменения:
+        \n 1. Тшетные попытки заставить обновляться график.
+        \n
+        \n Исправлено:
+        \n 1. Сброс таймера при повороте экрана.
+        \n 2. Переход в историю из окна таймера.
+        \n
+        \n
+        \n
+        \n
+        \n
+        \n by Dark</string>
+
+
+    <string name="alarm_button">Тревожная кнопка</string>
+    <string name="appbase_name">Инэкс</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about_title">О программе</string>
+    <string name="about_title_1">О программе 1</string>
+    <string name="SyncSettings">Настройки синхронизации</string>
+    <string name="about_title_2">О программе 2</string>
+    <string name="phone_info">Информация о телефоне</string>
+   <string name="about_Admin_pass">Смена пользователя</string>
+    <string name="action_settings">Настройки</string>
+   <string name="clear">Очистка базы</string>
+  <string name="replication">Синхронизация</string>
+    <string name="attention">Тревожная кнопка</string>
+    <string name="action_cat_male">Очистка базы</string>
+    <string name="action_cat_female">Синхронизация</string>
+     <string name="action_cat_update">Обратная связь</string>
+    <string name="action_kitten">TEST</string>
+    <string name="date_format_alarm_time">h:mm aa</string>
+    <string name="error_no_time_set">Cannot turn on alarm: set the time!</string>
+    <string name="info_alarm_enabled">Alarm is on!</string>
+    <string name="info_alarm_disabled">Alarm is off!</string>
+    <string name="info_alarm_updated">Alarm updated!</string>
+    <string name="pref_title_song">Звук</string>
+    <string name="error_no_song_set">Cannot turn on the alarm:  pick a song!</string>
+    <string name="pref_title_alarm_enabled">Включить сигнал</string>
+    <string name="pref_title_alarm_time">Время</string>
+    <string name="pref_summary_default">Нажмите здесь для выбора</string>
+    <string name="myalarm">График сигналов</string>
+    <string name="update">Обновление программы</string>
+    <string name="list_number">Список разрешенных номеров</string>
+
+    <string name="l_number">Список номеров</string>
+    <string name="dic_qr">Справочник QR кодов</string>
+
+    <string name="sys">Системные настройки (исправлять только если знаешь что делаешь)</string>
+    <string name="nav_pass">Admin settings</string>
+
+    <string name="refresh_started">Обновление ....</string>
+    <string name="refresh_finished">Обновление ....</string>
+
+
+    <string name="button_new">New</string>
+    <string name="title_activity_set_alarms">Установить напоминание</string>
+    <string name="no_alarms">Нет установленных напоминаний</string>
+
+    <!-- Menu -->
+    <string name="home">HOME</string>
+    <string name="menu_item_new">Новое</string>
+    <string name="menu_item_save">Сохранить</string>
+    <string name="menu_item_delete">Отмена</string>
+    <string name="menu_item_rate">Rate on Google Play</string>
+    <string name="menu_item_website">Вебсайт</string>
+    <string name="menu_item_clearbd">Очистить расписание</string>
+    <string name="menu_item_report">Сообщить об ошибке</string>
+
+    <!-- Alert -->
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="decimal_button_text">,</string>
+    <string name="clear_button_text">Очистить</string>
+    <string name="minus_button_text">-</string>
+
+
+    <color name="title_background_color">#f17808</color>
+
+    <string name="button_delete">Удалить</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- gps -->
+    <string name="gps">GPS</string>
+     <string name="qr">QrReader</string>
+    <string name="provider_gps">GPS</string>
+    <string name="provider_network">Сеть</string>
+    <string name="location_settings">Настройки \n определения \n GPS</string>
+
+
+
+    <!-- preferenses -->
+    <string name="pref_sync">что то</string>
+    <string name="pref_sync_summ">QrReader</string>
+    <string name="pref_syncConnectionType">GPS</string>
+    <string name="pref_syncConnectionTypes_entries">Сеть</string>
+    <string name="pref_syncConnectionTypes_values">Настройки \n определения \n GPS</string>
+    <string name="pref_syncConnectionTypes_default">QrReader</string>
+
+
+    <string name="tab_stream">Stream</string>
+    <string name="tab_messages">Messages</string>
+    <string name="tab_notifications">Notifications</string>
+    <string name="tab_photos">Photos</string>
+
+
+    <string name="description_refresh">Refresh</string>
+
+
+    <string name="scan_process_label">Scanning…</string>
+    <string name="scan_label">Scan</string>
+    <string name="scan_result_label">Last scan result: </string>
+
+</resources>

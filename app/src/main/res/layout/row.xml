@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <TextView
+        android:id="@+id/ColCOLUMN_CONTR_NAME"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="COLUMN_CONTR_NAME" />
+
+    <TextView
+        android:id="@+id/ColCOLUMN_PERSON_NAME"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="COLUMN_PERSON_NAME" />
+
+    <TextView
+        android:id="@+id/ColCOLUMN_REZULT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="COLUMN_REZULT"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/rez"
+        android:layout_width="22px"
+        android:layout_height="22px"
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="4px"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/ColCOLUMN_DATA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="COLUMN_DATA" />
+
+
+    <TextView
+        android:id="@+id/DESCRIPTION"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="DESCRIPTION" />
+
+    <TextView
+        android:id="@+id/REQUEST"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="R"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/signal"
+        android:layout_width="22px"
+        android:layout_height="22px"
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="4px"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>
+
+</LinearLayout>
